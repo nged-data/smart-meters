@@ -31,8 +31,7 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/wpd-data/smart-meters.git
    ```
-2. Create new environment
-Creating a new environment is not strictly necessary, but given that installing other geospatial packages from different channels may cause dependency conflicts (as mentioned in the note above), it can be good practice to install the geospatial stack in a clean environment starting fresh.
+2. Creating a new environment is not strictly necessary, but given that installing other geospatial packages from different channels may cause dependency conflicts (as mentioned in the note above), it can be good practice to install the geospatial stack in a clean environment starting fresh.
 
     The following commands create a new environment with the name geo_env, configures it to install packages always from conda-forge, and installs GeoPandas in it:
    ```
@@ -112,4 +111,4 @@ Project Link: [https://github.com/wpd-data/smart-meters/](https://github.com/wpd
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-****
+
