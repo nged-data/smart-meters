@@ -17,25 +17,21 @@ This Jupyter notebook provides an example of what you can do using data publishe
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* [Anaconda](https://www.anaconda.com/products/individual)
+
 
 ### Installation
 
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/wpd-data/smart-meters.git
    ```
-3. Create new environment
+2. Create new environment
 Creating a new environment is not strictly necessary, but given that installing other geospatial packages from different channels may cause dependency conflicts (as mentioned in the note above), it can be good practice to install the geospatial stack in a clean environment starting fresh.
 
     The following commands create a new environment with the name geo_env, configures it to install packages always from conda-forge, and installs GeoPandas in it:
@@ -46,10 +42,7 @@ Creating a new environment is not strictly necessary, but given that installing 
    conda config --env --set channel_priority strict
    conda install python=3 geopandas
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+3. Open Jupyter Notebook and run
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -58,9 +51,7 @@ Creating a new environment is not strictly necessary, but given that installing 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Use this notebook in conjunction with WPD's connected data portal to explore and visualise the vast array of datasets available.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -69,12 +60,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+N/A
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -101,7 +87,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the WPD Open Data License. For more information see [here](https://www.westernpower.co.uk/open-data-licence)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -110,9 +96,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Liam McSweeney - wpddata@westernpower.co.uk
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/wpd-data/smart-meters/](https://github.com/wpd-data/smart-meters/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -121,9 +107,9 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* Jon Berry
+* George Kiely
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 ****
